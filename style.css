@@ -1,0 +1,66 @@
+html{
+    box-sizing: border-box;
+    background-color: #F2B705;
+}
+
+img{
+    width: fit-content;
+}
+#tabella{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 100px;
+    background-color: #F2B705;
+}
+
+/* serve a creare la croce */
+th,td{
+    border: 7px solid black;
+}
+#td1,#td2,#td3{
+    border-top: none;
+}
+#td7,#td8,#td9{
+    border-bottom: none;
+}
+#td1,#td4,#td7{
+    border-left: none;
+}
+#td3,#td6,#td9{
+    border-right: none;
+}
+
+#pulsante{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+#btnCPU,#btnMoneta{
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;  
+}
+#btnCPU:hover,#btnMoneta:hover{
+    background-color: #3e8e41
+}
+#btnCPU:active,#btnMoneta:active{
+    background-color: #4CAF50;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#Titolo{
+    font-size:xx-large;
+    font-style: italic;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+}
+ 

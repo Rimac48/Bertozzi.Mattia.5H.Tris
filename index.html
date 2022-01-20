@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProprioTris</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <script src="script.js"> </script>
+</head>
+<body>
+
+    <div id="Titolo">Gioco del Tris by Mattia Bertozzi</div>
+
+    <div id="pulsante">
+
+        <button id="btnMoneta" type="button" onclick="Moneta()">Clicca per lanciare una moneta</button>
+
+       <button id="btnCPU" type="button" onclick="Cpu()">Gioca contro la CPU</button>
+
+    </div>
+
+        <table id="tabella" style="width: fit-content;">
+            <tr>
+                <td id="td1"><img id="0,0" height="150px" width="150px" onclick="Gioca('0,0')"></td>
+                <td id="td2"><img id="0,1" height="150px" width="150px" onclick="Gioca('0,1')"></td>
+                <td id="td3"><img id="0,2" height="150px" width="150px" onclick="Gioca('0,2')"></td>
+            </tr>
+            <tr>
+                <td id="td4"><img id="1,0" height="150px" width="150px" onclick="Gioca('1,0')"></td>
+                <td id="td5"><img id="1,1" height="150px" width="150px" onclick="Gioca('1,1')"></td>
+                <td id="td6"><img id="1,2" height="150px" width="150px" onclick="Gioca('1,2')"></td>
+            </tr>
+            <tr>
+                <td id="td7"><img id="2,0" height="150px" width="150px" onclick="Gioca('2,0')"></td>
+                <td id="td8"><img id="2,1" height="150px" width="150px" onclick="Gioca('2,1')"></td>
+                <td id="td9"><img id="2,2" height="150px" width="150px" onclick="Gioca('2,2')"></td>
+            </td>
+        </table>
+</body>
+</html>
